@@ -77,7 +77,20 @@
 - работа с выбросами
 - ad hoc анализ
 
-## Файлы
+## Запуск проекта
 
-- [`real_estate_analysis.sql`](real_estate_analysis.sql) — SQL-запросы проекта
-- [`real_estate_project_description.docx`](real_estate_project_description.docx) — постановка задач, интерпретация результатов и выводы
+### Системные требования
+
+Для выполнения SQL-запросов потребуется:
+
+- PostgreSQL;
+- SQL-клиент, например DBeaver или pgAdmin;
+- база данных с исходными таблицами проекта.
+
+### Локальный запуск
+
+Склонируйте репозиторий:
+
+```bash
+git clone https://github.com/NatashaBass/real-estate-analysis.git
+cd real-estate-analysis
